@@ -1,0 +1,71 @@
+﻿<e360TrayConfig>
+  <MonitoredFields>
+    <CLI>
+      <field id="2"/>
+      <field id="3"/>
+      <field id="4"/>
+      <field id="14"/>
+      <field id="19"/>
+      <field id="136"/>
+      <field id="356"/>
+      <field id="761"/>
+      <field id="762"/>
+      <field id="1544"/>
+      <field id="1553"/>
+      <field id="1811"/>
+      <field id="2034"/>
+      <field id="MORNET.X67"/>
+      <field id="231"/>
+      <field id="253"/>
+      <field id="749"/>
+      <field id="1601"/>
+      <field id="MS.STATUS"/>
+      <field id="VASUMM.X23"/>
+      <field id="3142"/>
+      <field id="142"/>
+      <field id="2151"/>
+      <field id="2203"/>
+      <field id="3041"/>
+    </CLI>
+    <RescissionDate>
+      <field id="14"/>
+      <field id="19"/>
+      <field id="1811"/>
+      <field id="748"/>
+    </RescissionDate>
+    <IMAGING>
+      <field id="SERVICE.X108"/>
+    </IMAGING>
+    <Commissions>
+      <field id="1393"/>
+      <field id="2301"/>
+      <field id="2303"/>
+      <field id="2987"/>
+      <field id="CX.Pending.Denied.Date"/>
+      <field id="2300"/>
+    </Commissions>
+  </MonitoredFields>
+  <MonitoredMilestones>
+    <CLI>
+      <milestone id="Approval"/>
+    </CLI>
+   
+  </MonitoredMilestones>
+  <CustomHolidays>
+    <!--
+    <MA date="4/21/2014"/>
+    <ME date="4/21/2014"/>
+    -->
+  </CustomHolidays>
+  <FundingConfig>
+    <CutoffTime value="3:15:00 PM" />
+    <TasksToBeCleared>
+      <Task Name="Ja Reviewed Critical Closing Documents" />
+      <Task Name="Jb Validate Wire Amount against Approved HUD." />
+      <Task Name="Jc Run Mavent and confirm if its a Pass" />
+    </TasksToBeCleared>
+  </FundingConfig>
+  <ServicingConfig url="https://dev.integration.gmacm.com/neo/service/servicingaccountdetails/html?loanId=" username="directlending" password="directlending" />
+<ServiceHostedServerName name="http://dmapp169"></ServiceHostedServerName>
+  <EncompassCoronaUrl name="http://dmapp169/EncompassCorona/Home/Index"></EncompassCoronaUrl>
+</e360TrayConfig>
