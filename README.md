@@ -6,7 +6,7 @@ See below for some high-level information about the initial release.
 ## Dynamic Event Handling
 At the core of the plugin is support for handling events. 
 The events being handled provide, nearly, limitless possibilities for extensibility. 
-All Design Patterns previously identified in the 'Ditech Prototype Design Patterns' form have now been replicated externally. 
+All Design Patterns previously identified in the prior 'Prototype Design Patterns' form have now been replicated externally. 
 This means we have a single code-base for deploying between environments.
 * Interface Triggers
 * Extending Button Clicks

@@ -61,9 +61,9 @@ namespace LoanMonitorPlugin.Forms
                     {
                         try
                         {
-                            //make the call to update CX.DITECH_INTERFACE
+                            //make the call to update CX.INTERFACE_FLAG
                             StringList fields = new StringList();
-                            fields.Add("CX.DITECH_INTERFACE");
+                            fields.Add("CX.INTERFACE_FLAG");
                             //StringList result = EncompassApplication.Session.Loans.SelectFields(line, fields);
                             string loanGuid = LoanHelper.GetLoanGuid(line);
                             //MessageBox.Show(loanGuid);
@@ -86,7 +86,7 @@ namespace LoanMonitorPlugin.Forms
                                 StringList loanList = new StringList();
                                 loanList.Add(line);
                                 BatchUpdate batch = new BatchUpdate(loanList);
-                                batch.Fields.Add("CX.DITECH_INTERFACE", newValue);
+                                batch.Fields.Add("CX.INTERFACE_FLAG", newValue);
                                 EncompassApplication.Session.Loans.SubmitBatchUpdate(batch);
                             }
                         }

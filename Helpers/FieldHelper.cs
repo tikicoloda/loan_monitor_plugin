@@ -22,7 +22,7 @@ namespace LoanMonitorPlugin.Helpers
         public const string WireTransferAmount = "1990";
         public const string FundingDate = "2553";
         public const string FunderName = "1991";
-        public const string CompanyNameInterfaceFlag = "CX.DITECH_INTERFACE";
+        public const string CompanyNameInterfaceFlag = "CX.INTERFACE_FLAG";
         public const string BankReject = "CX.BANKREJECT";
 
         #endregion Funding Fields
