@@ -277,6 +277,7 @@
     <EmbeddedResource Include="Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
@@ -306,7 +307,7 @@
       <SubType>Designer</SubType>
     </None>
     <None Include="Resources\new.ico" />
-    <None Include="Resources\DitechLogo.jpg" />
+    <None Include="Resources\CompanyLogo.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
