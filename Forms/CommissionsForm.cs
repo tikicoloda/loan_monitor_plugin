@@ -13,7 +13,7 @@ using System.ServiceModel;
 using EllieMae.Encompass.Automation;
 using LoanMonitorPlugin.Helpers;
 using System.Web;
-using Ditech.BusinessEntities;
+using CompanyName.BusinessEntities;
 
 namespace LoanMonitorPlugin.Forms
 {
@@ -51,7 +51,7 @@ namespace LoanMonitorPlugin.Forms
         {
             try
             {
-                cmbDitechStatements.DataSource = emptyStatementList().DefaultView;
+                cmbCompanyNameStatements.DataSource = emptyStatementList().DefaultView;
 
                 //string address = UserConfigHelper.getCommissionsServiceURI();// "http://dmdws002:8001/E360/Commissions.svc/commissions";
                 //System.ServiceModel.BasicHttpBinding binding = new System.ServiceModel.BasicHttpBinding();
@@ -84,11 +84,11 @@ namespace LoanMonitorPlugin.Forms
                 dr = dt.NewRow();
                 dt.Rows.InsertAt(dr, 0);
 
-                cmbDitechStatements.ValueMember = "payPeriod";
+                cmbCompanyNameStatements.ValueMember = "payPeriod";
 
-                cmbDitechStatements.DisplayMember = "payPeriodName";
+                cmbCompanyNameStatements.DisplayMember = "payPeriodName";
 
-                cmbDitechStatements.DataSource = dt.DefaultView;
+                cmbCompanyNameStatements.DataSource = dt.DefaultView;
 
                 //if (client.State == CommunicationState.Opened)
                 //{
@@ -144,13 +144,13 @@ namespace LoanMonitorPlugin.Forms
 
 
 
-                cmbDitechDelegate.ValueMember = "Id";
+                cmbCompanyNameDelegate.ValueMember = "Id";
 
-                cmbDitechDelegate.DisplayMember = "FullName";
-                cmbDitechDelegate.DataSource = delegateDt.DefaultView;
-                if (cmbDitechDelegate.Items.Count > 0)
+                cmbCompanyNameDelegate.DisplayMember = "FullName";
+                cmbCompanyNameDelegate.DataSource = delegateDt.DefaultView;
+                if (cmbCompanyNameDelegate.Items.Count > 0)
                 {
-                    cmbDitechDelegate.SelectedItem = cmbDitechDelegate.Items[cmbDitechDelegate.Items.Count - 1];
+                    cmbCompanyNameDelegate.SelectedItem = cmbCompanyNameDelegate.Items[cmbCompanyNameDelegate.Items.Count - 1];
                 }
 
                 //if (client.State == CommunicationState.Opened)
@@ -207,27 +207,27 @@ namespace LoanMonitorPlugin.Forms
 
         }
 
-        private void cmbDitechDelegates_SelectedIndexChanged(object sender, EventArgs e)
+        private void cmbCompanyNameDelegates_SelectedIndexChanged(object sender, EventArgs e)
         {
 
 
             //populateStatements();
         }
 
-        private void cmbDitechStatements_SelectedIndexChanged(object sender, EventArgs e)
+        private void cmbCompanyNameStatements_SelectedIndexChanged(object sender, EventArgs e)
         {
 
             try
             {
-                if (cmbDitechStatements.SelectedValue.ToString() != "")
+                if (cmbCompanyNameStatements.SelectedValue.ToString() != "")
                 {
                     {
-                        // MessageBox.Show(cmbDitechDelegate.SelectedValue.ToString());
+                        // MessageBox.Show(cmbCompanyNameDelegate.SelectedValue.ToString());
 
                         AdminClient adminClient = UserConfigHelper.getAdminServiceClient();
 
-                        string cipherStatementId = HttpUtility.UrlEncode(adminClient.EncryptData(Convert.ToString(cmbDitechStatements.SelectedValue)));
-                        string cipherDelegateId = HttpUtility.UrlEncode(adminClient.EncryptData(Convert.ToString(cmbDitechDelegate.SelectedValue)));
+                        string cipherStatementId = HttpUtility.UrlEncode(adminClient.EncryptData(Convert.ToString(cmbCompanyNameStatements.SelectedValue)));
+                        string cipherDelegateId = HttpUtility.UrlEncode(adminClient.EncryptData(Convert.ToString(cmbCompanyNameDelegate.SelectedValue)));
                         string isAdmin = HttpUtility.UrlEncode(adminClient.EncryptData(isCurrentUserAdminForCommisions));
                         
                         string url = string.Empty;
@@ -235,7 +235,7 @@ namespace LoanMonitorPlugin.Forms
                             cipherStatementId, cipherDelegateId, isAdmin);
 
                         //url = String.Format("{0}?periodid={1}&employeeid={2}&isadmin={3}", UserConfigHelper.getEncompassCoronaUrl(),
-                        //    cmbDitechStatements.SelectedValue.ToString(), cmbDitechDelegate.SelectedValue.ToString(), isCurrentUserAdminForCommisions);
+                        //    cmbCompanyNameStatements.SelectedValue.ToString(), cmbCompanyNameDelegate.SelectedValue.ToString(), isCurrentUserAdminForCommisions);
 
                         ProcessStartInfo sInfo = new ProcessStartInfo(url);
                         Process.Start(sInfo);

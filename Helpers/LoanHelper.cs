@@ -37,21 +37,21 @@ namespace LoanMonitorPlugin.Helpers
 
         public static void setInterfaceFlag(InterfaceFlagType interfaceType)
         {
-            int? interfaceFlag = (int?)EncompassApplication.CurrentLoan.Fields[FieldHelper.DitechInterfaceFlag].Value ?? 0;
+            int? interfaceFlag = (int?)EncompassApplication.CurrentLoan.Fields[FieldHelper.CompanyNameInterfaceFlag].Value ?? 0;
             bool isAlreadyIncluded = (interfaceFlag & (int)interfaceType) != 0;
             if (!isAlreadyIncluded)
             {
-                EncompassApplication.CurrentLoan.Fields[FieldHelper.DitechInterfaceFlag].Value = interfaceFlag | (int)interfaceType;
+                EncompassApplication.CurrentLoan.Fields[FieldHelper.CompanyNameInterfaceFlag].Value = interfaceFlag | (int)interfaceType;
             }
         }
 
         public static void resetInterfaceFlag(InterfaceFlagType interfaceType)
         {
-            int? interfaceFlag = (int?)EncompassApplication.CurrentLoan.Fields[FieldHelper.DitechInterfaceFlag].Value ?? 0;
+            int? interfaceFlag = (int?)EncompassApplication.CurrentLoan.Fields[FieldHelper.CompanyNameInterfaceFlag].Value ?? 0;
             bool isAlreadyIncluded = (interfaceFlag & (int)interfaceType) != 0;
             if (isAlreadyIncluded)
             {
-                EncompassApplication.CurrentLoan.Fields[FieldHelper.DitechInterfaceFlag].Value = interfaceFlag ^ (int)interfaceType;
+                EncompassApplication.CurrentLoan.Fields[FieldHelper.CompanyNameInterfaceFlag].Value = interfaceFlag ^ (int)interfaceType;
             }
         }
 

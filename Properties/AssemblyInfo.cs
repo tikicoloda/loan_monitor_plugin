@@ -9,7 +9,7 @@ using System.Runtime.CompilerServices;
 [assembly: AssemblyTitle("e360 Taskbar Tool")]
 [assembly: AssemblyDescription("This is a taskbar companion utility for the Encompass360 application.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("Ditech Mortgage Corp")]
+[assembly: AssemblyCompany("CompanyName Mortgage Corp")]
 [assembly: AssemblyProduct("e360 Taskbar Tool")]
 [assembly: AssemblyCopyright("")]
 [assembly: AssemblyTrademark("")]

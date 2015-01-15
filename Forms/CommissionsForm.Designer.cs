@@ -30,8 +30,8 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.cmbDitechStatements = new System.Windows.Forms.ComboBox();
-            this.cmbDitechDelegate = new System.Windows.Forms.ComboBox();
+            this.cmbCompanyNameStatements = new System.Windows.Forms.ComboBox();
+            this.cmbCompanyNameDelegate = new System.Windows.Forms.ComboBox();
             this.SuspendLayout();
             // 
             // label1
@@ -52,30 +52,30 @@
             this.label2.TabIndex = 1;
             this.label2.Text = "Pay Period";
             // 
-            // cmbDitechStatements
+            // cmbCompanyNameStatements
             // 
-            this.cmbDitechStatements.FormattingEnabled = true;
-            this.cmbDitechStatements.Location = new System.Drawing.Point(120, 83);
-            this.cmbDitechStatements.Name = "cmbDitechStatements";
-            this.cmbDitechStatements.Size = new System.Drawing.Size(200, 21);
-            this.cmbDitechStatements.TabIndex = 3;
-            this.cmbDitechStatements.SelectedIndexChanged += new System.EventHandler(this.cmbDitechStatements_SelectedIndexChanged);
+            this.cmbCompanyNameStatements.FormattingEnabled = true;
+            this.cmbCompanyNameStatements.Location = new System.Drawing.Point(120, 83);
+            this.cmbCompanyNameStatements.Name = "cmbCompanyNameStatements";
+            this.cmbCompanyNameStatements.Size = new System.Drawing.Size(200, 21);
+            this.cmbCompanyNameStatements.TabIndex = 3;
+            this.cmbCompanyNameStatements.SelectedIndexChanged += new System.EventHandler(this.cmbCompanyNameStatements_SelectedIndexChanged);
             // 
-            // cmbDitechDelegate
+            // cmbCompanyNameDelegate
             // 
-            this.cmbDitechDelegate.FormattingEnabled = true;
-            this.cmbDitechDelegate.Location = new System.Drawing.Point(120, 44);
-            this.cmbDitechDelegate.Name = "cmbDitechDelegate";
-            this.cmbDitechDelegate.Size = new System.Drawing.Size(200, 21);
-            this.cmbDitechDelegate.TabIndex = 4;
+            this.cmbCompanyNameDelegate.FormattingEnabled = true;
+            this.cmbCompanyNameDelegate.Location = new System.Drawing.Point(120, 44);
+            this.cmbCompanyNameDelegate.Name = "cmbCompanyNameDelegate";
+            this.cmbCompanyNameDelegate.Size = new System.Drawing.Size(200, 21);
+            this.cmbCompanyNameDelegate.TabIndex = 4;
             // 
             // CommissionsForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(708, 356);
-            this.Controls.Add(this.cmbDitechDelegate);
-            this.Controls.Add(this.cmbDitechStatements);
+            this.Controls.Add(this.cmbCompanyNameDelegate);
+            this.Controls.Add(this.cmbCompanyNameStatements);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "CommissionsForm";
@@ -89,7 +89,7 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.ComboBox cmbDitechStatements;
-        private System.Windows.Forms.ComboBox cmbDitechDelegate;
+        private System.Windows.Forms.ComboBox cmbCompanyNameStatements;
+        private System.Windows.Forms.ComboBox cmbCompanyNameDelegate;
     }
 }

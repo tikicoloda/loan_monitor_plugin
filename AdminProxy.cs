@@ -11,26 +11,26 @@
 
 
 [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-[System.ServiceModel.ServiceContractAttribute(Namespace="http://ditech.gate", ConfigurationName="IAdmin")]
+[System.ServiceModel.ServiceContractAttribute(Namespace="http://companyname.gate", ConfigurationName="IAdmin")]
 public interface IAdmin
 {
     
-    [System.ServiceModel.OperationContractAttribute(Action="http://ditech.gate/IAdmin/reloadContext", ReplyAction="http://ditech.gate/IAdmin/reloadContextResponse")]
+    [System.ServiceModel.OperationContractAttribute(Action="http://companyname.gate/IAdmin/reloadContext", ReplyAction="http://companyname.gate/IAdmin/reloadContextResponse")]
     string reloadContext(string value);
     
-    [System.ServiceModel.OperationContractAttribute(Action="http://ditech.gate/IAdmin/getMemory", ReplyAction="http://ditech.gate/IAdmin/getMemoryResponse")]
+    [System.ServiceModel.OperationContractAttribute(Action="http://companyname.gate/IAdmin/getMemory", ReplyAction="http://companyname.gate/IAdmin/getMemoryResponse")]
     string getMemory(string value);
     
-    [System.ServiceModel.OperationContractAttribute(Action="http://ditech.gate/IAdmin/getConnections", ReplyAction="http://ditech.gate/IAdmin/getConnectionsResponse")]
+    [System.ServiceModel.OperationContractAttribute(Action="http://companyname.gate/IAdmin/getConnections", ReplyAction="http://companyname.gate/IAdmin/getConnectionsResponse")]
     string getConnections(string value);
     
-    [System.ServiceModel.OperationContractAttribute(Action="http://ditech.gate/IAdmin/getLog", ReplyAction="http://ditech.gate/IAdmin/getLogResponse")]
+    [System.ServiceModel.OperationContractAttribute(Action="http://companyname.gate/IAdmin/getLog", ReplyAction="http://companyname.gate/IAdmin/getLogResponse")]
     string getLog(string value);
     
-    [System.ServiceModel.OperationContractAttribute(Action="http://ditech.gate/IAdmin/EncryptData", ReplyAction="http://ditech.gate/IAdmin/EncryptDataResponse")]
+    [System.ServiceModel.OperationContractAttribute(Action="http://companyname.gate/IAdmin/EncryptData", ReplyAction="http://companyname.gate/IAdmin/EncryptDataResponse")]
     string EncryptData(string plainText);
     
-    [System.ServiceModel.OperationContractAttribute(Action="http://ditech.gate/IAdmin/DecryptData", ReplyAction="http://ditech.gate/IAdmin/DecryptDataResponse")]
+    [System.ServiceModel.OperationContractAttribute(Action="http://companyname.gate/IAdmin/DecryptData", ReplyAction="http://companyname.gate/IAdmin/DecryptDataResponse")]
     string DecryptData(string cipherText);
 }
 

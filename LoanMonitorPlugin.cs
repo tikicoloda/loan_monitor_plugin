@@ -313,7 +313,7 @@ namespace LoanMonitorPlugin
 
         private void Application_FormChange(object sender, FormChangeEventArgs e)
         {
-            //attach a listener for any btnDitechAction buttons.
+            //attach a listener for any btnCompanyNameAction buttons.
             try
             {
                 EllieMae.Encompass.Forms.Control[] controls = e.Form.GetAllControls();
@@ -322,7 +322,7 @@ namespace LoanMonitorPlugin
                     if (typeof(EllieMae.Encompass.Forms.Button).Equals(control.GetType()))
                     {
                         EllieMae.Encompass.Forms.Button btnControl = (EllieMae.Encompass.Forms.Button)control;
-                        if (btnControl.ControlID.StartsWith("btnDitechAction"))
+                        if (btnControl.ControlID.StartsWith("btnCompanyNameAction"))
                         {
                             btnControl.Click += new EventHandler(btnClick);
                         }

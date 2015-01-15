@@ -8,14 +8,14 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Ditech.BusinessEntities
+namespace CompanyName.BusinessEntities
 {
     using System.Runtime.Serialization;
     
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="StatementPeriod", Namespace="http://schemas.datacontract.org/2004/07/Ditech.BusinessEntities")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="StatementPeriod", Namespace="http://schemas.datacontract.org/2004/07/CompanyName.BusinessEntities")]
     public partial class StatementPeriod : object, System.Runtime.Serialization.IExtensibleDataObject
     {
         
@@ -31,7 +31,7 @@ namespace Ditech.BusinessEntities
         
         private System.DateTime PeriodStartDtField;
         
-        private Ditech.BusinessEntities.CommisionPeriodType PeriodTypeField;
+        private CompanyName.BusinessEntities.CommisionPeriodType PeriodTypeField;
         
         public System.Runtime.Serialization.ExtensionDataObject ExtensionData
         {
@@ -111,7 +111,7 @@ namespace Ditech.BusinessEntities
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public Ditech.BusinessEntities.CommisionPeriodType PeriodType
+        public CompanyName.BusinessEntities.CommisionPeriodType PeriodType
         {
             get
             {
@@ -125,7 +125,7 @@ namespace Ditech.BusinessEntities
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="CommisionPeriodType", Namespace="http://schemas.datacontract.org/2004/07/Ditech.BusinessEntities")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="CommisionPeriodType", Namespace="http://schemas.datacontract.org/2004/07/CompanyName.BusinessEntities")]
     public enum CommisionPeriodType : int
     {
         
@@ -138,7 +138,7 @@ namespace Ditech.BusinessEntities
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="DelegateUser", Namespace="http://schemas.datacontract.org/2004/07/Ditech.BusinessEntities")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="DelegateUser", Namespace="http://schemas.datacontract.org/2004/07/CompanyName.BusinessEntities")]
     public partial class DelegateUser : object, System.Runtime.Serialization.IExtensibleDataObject
     {
         
@@ -150,7 +150,7 @@ namespace Ditech.BusinessEntities
         
         private string LastNameField;
         
-        private Ditech.BusinessEntities.UserType SpecialUserTypeField;
+        private CompanyName.BusinessEntities.UserType SpecialUserTypeField;
         
         private string UserIDField;
         
@@ -160,7 +160,7 @@ namespace Ditech.BusinessEntities
         
         private string UserSubTypeField;
         
-        private Ditech.BusinessEntities.UserType UserTypeField;
+        private CompanyName.BusinessEntities.UserType UserTypeField;
         
         public System.Runtime.Serialization.ExtensionDataObject ExtensionData
         {
@@ -214,7 +214,7 @@ namespace Ditech.BusinessEntities
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public Ditech.BusinessEntities.UserType SpecialUserType
+        public CompanyName.BusinessEntities.UserType SpecialUserType
         {
             get
             {
@@ -279,7 +279,7 @@ namespace Ditech.BusinessEntities
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public Ditech.BusinessEntities.UserType UserType
+        public CompanyName.BusinessEntities.UserType UserType
         {
             get
             {
@@ -293,7 +293,7 @@ namespace Ditech.BusinessEntities
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="UserType", Namespace="http://schemas.datacontract.org/2004/07/Ditech.BusinessEntities")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="UserType", Namespace="http://schemas.datacontract.org/2004/07/CompanyName.BusinessEntities")]
     public enum UserType : int
     {
         
@@ -327,7 +327,7 @@ namespace Ditech.BusinessEntities
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="Summary", Namespace="http://schemas.datacontract.org/2004/07/Ditech.BusinessEntities")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="Summary", Namespace="http://schemas.datacontract.org/2004/07/CompanyName.BusinessEntities")]
     public partial class Summary : object, System.Runtime.Serialization.IExtensibleDataObject
     {
         
@@ -558,7 +558,7 @@ namespace Ditech.BusinessEntities
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="Adjustment", Namespace="http://schemas.datacontract.org/2004/07/Ditech.BusinessEntities")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="Adjustment", Namespace="http://schemas.datacontract.org/2004/07/CompanyName.BusinessEntities")]
     public partial class Adjustment : object, System.Runtime.Serialization.IExtensibleDataObject
     {
         
@@ -568,7 +568,7 @@ namespace Ditech.BusinessEntities
         
         private string AdjustmentDescriptionField;
         
-        private Ditech.BusinessEntities.AdjustmentType TypeField;
+        private CompanyName.BusinessEntities.AdjustmentType TypeField;
         
         public System.Runtime.Serialization.ExtensionDataObject ExtensionData
         {
@@ -609,7 +609,7 @@ namespace Ditech.BusinessEntities
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public Ditech.BusinessEntities.AdjustmentType Type
+        public CompanyName.BusinessEntities.AdjustmentType Type
         {
             get
             {
@@ -624,7 +624,7 @@ namespace Ditech.BusinessEntities
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="Loan", Namespace="http://schemas.datacontract.org/2004/07/Ditech.BusinessEntities")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="Loan", Namespace="http://schemas.datacontract.org/2004/07/CompanyName.BusinessEntities")]
     public partial class Loan : object, System.Runtime.Serialization.IExtensibleDataObject
     {
         
@@ -809,7 +809,7 @@ namespace Ditech.BusinessEntities
     }
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="AdjustmentType", Namespace="http://schemas.datacontract.org/2004/07/Ditech.BusinessEntities")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="AdjustmentType", Namespace="http://schemas.datacontract.org/2004/07/CompanyName.BusinessEntities")]
     public enum AdjustmentType : int
     {
         
@@ -820,30 +820,30 @@ namespace Ditech.BusinessEntities
         Currency = 1,
     }
 }
-namespace Ditech.DataTransferObjects
+namespace CompanyName.DataTransferObjects
 {
     using System.Runtime.Serialization;
     
     
     [System.Diagnostics.DebuggerStepThroughAttribute()]
     [System.CodeDom.Compiler.GeneratedCodeAttribute("System.Runtime.Serialization", "4.0.0.0")]
-    [System.Runtime.Serialization.DataContractAttribute(Name="ReportDTO", Namespace="http://schemas.datacontract.org/2004/07/Ditech.DataTransferObjects")]
+    [System.Runtime.Serialization.DataContractAttribute(Name="ReportDTO", Namespace="http://schemas.datacontract.org/2004/07/CompanyName.DataTransferObjects")]
     public partial class ReportDTO : object, System.Runtime.Serialization.IExtensibleDataObject
     {
         
         private System.Runtime.Serialization.ExtensionDataObject extensionDataField;
         
-        private Ditech.BusinessEntities.Adjustment[] DollarAdjustmentsField;
+        private CompanyName.BusinessEntities.Adjustment[] DollarAdjustmentsField;
         
-        private Ditech.BusinessEntities.StatementPeriod PeriodField;
+        private CompanyName.BusinessEntities.StatementPeriod PeriodField;
         
-        private Ditech.BusinessEntities.Loan[] ReportLoansField;
+        private CompanyName.BusinessEntities.Loan[] ReportLoansField;
         
-        private Ditech.BusinessEntities.Summary ReportSummaryField;
+        private CompanyName.BusinessEntities.Summary ReportSummaryField;
         
-        private Ditech.BusinessEntities.Adjustment[] UnitAdjustmentsField;
+        private CompanyName.BusinessEntities.Adjustment[] UnitAdjustmentsField;
         
-        private Ditech.BusinessEntities.DelegateUser UserInfoField;
+        private CompanyName.BusinessEntities.DelegateUser UserInfoField;
         
         public System.Runtime.Serialization.ExtensionDataObject ExtensionData
         {
@@ -858,7 +858,7 @@ namespace Ditech.DataTransferObjects
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public Ditech.BusinessEntities.Adjustment[] DollarAdjustments
+        public CompanyName.BusinessEntities.Adjustment[] DollarAdjustments
         {
             get
             {
@@ -871,7 +871,7 @@ namespace Ditech.DataTransferObjects
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public Ditech.BusinessEntities.StatementPeriod Period
+        public CompanyName.BusinessEntities.StatementPeriod Period
         {
             get
             {
@@ -884,7 +884,7 @@ namespace Ditech.DataTransferObjects
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public Ditech.BusinessEntities.Loan[] ReportLoans
+        public CompanyName.BusinessEntities.Loan[] ReportLoans
         {
             get
             {
@@ -897,7 +897,7 @@ namespace Ditech.DataTransferObjects
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public Ditech.BusinessEntities.Summary ReportSummary
+        public CompanyName.BusinessEntities.Summary ReportSummary
         {
             get
             {
@@ -910,7 +910,7 @@ namespace Ditech.DataTransferObjects
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public Ditech.BusinessEntities.Adjustment[] UnitAdjustments
+        public CompanyName.BusinessEntities.Adjustment[] UnitAdjustments
         {
             get
             {
@@ -923,7 +923,7 @@ namespace Ditech.DataTransferObjects
         }
         
         [System.Runtime.Serialization.DataMemberAttribute()]
-        public Ditech.BusinessEntities.DelegateUser UserInfo
+        public CompanyName.BusinessEntities.DelegateUser UserInfo
         {
             get
             {
@@ -939,29 +939,29 @@ namespace Ditech.DataTransferObjects
 
 
 [System.CodeDom.Compiler.GeneratedCodeAttribute("System.ServiceModel", "4.0.0.0")]
-[System.ServiceModel.ServiceContractAttribute(Namespace="http://ditech.commissions", ConfigurationName="ICommissions")]
+[System.ServiceModel.ServiceContractAttribute(Namespace="http://companyname.commissions", ConfigurationName="ICommissions")]
 public interface ICommissions
 {
     
-    [System.ServiceModel.OperationContractAttribute(Action="http://ditech.commissions/ICommissions/IsCommissionsEligible", ReplyAction="http://ditech.commissions/ICommissions/IsCommissionsEligibleResponse")]
+    [System.ServiceModel.OperationContractAttribute(Action="http://companyname.commissions/ICommissions/IsCommissionsEligible", ReplyAction="http://companyname.commissions/ICommissions/IsCommissionsEligibleResponse")]
     string IsCommissionsEligible(string value);
     
-    [System.ServiceModel.OperationContractAttribute(Action="http://ditech.commissions/ICommissions/GetDelegates", ReplyAction="http://ditech.commissions/ICommissions/GetDelegatesResponse")]
+    [System.ServiceModel.OperationContractAttribute(Action="http://companyname.commissions/ICommissions/GetDelegates", ReplyAction="http://companyname.commissions/ICommissions/GetDelegatesResponse")]
     string GetDelegates(string value);
     
-    [System.ServiceModel.OperationContractAttribute(Action="http://ditech.commissions/ICommissions/GetStatementList", ReplyAction="http://ditech.commissions/ICommissions/GetStatementListResponse")]
-    Ditech.BusinessEntities.StatementPeriod[] GetStatementList();
+    [System.ServiceModel.OperationContractAttribute(Action="http://companyname.commissions/ICommissions/GetStatementList", ReplyAction="http://companyname.commissions/ICommissions/GetStatementListResponse")]
+    CompanyName.BusinessEntities.StatementPeriod[] GetStatementList();
     
-    [System.ServiceModel.OperationContractAttribute(Action="http://ditech.commissions/ICommissions/GetStatement", ReplyAction="http://ditech.commissions/ICommissions/GetStatementResponse")]
+    [System.ServiceModel.OperationContractAttribute(Action="http://companyname.commissions/ICommissions/GetStatement", ReplyAction="http://companyname.commissions/ICommissions/GetStatementResponse")]
     string GetStatement(string value);
     
-    [System.ServiceModel.OperationContractAttribute(Action="http://ditech.commissions/ICommissions/GetDelegatesDataContract", ReplyAction="http://ditech.commissions/ICommissions/GetDelegatesDataContractResponse")]
-    Ditech.BusinessEntities.DelegateUser[] GetDelegatesDataContract(string value);
+    [System.ServiceModel.OperationContractAttribute(Action="http://companyname.commissions/ICommissions/GetDelegatesDataContract", ReplyAction="http://companyname.commissions/ICommissions/GetDelegatesDataContractResponse")]
+    CompanyName.BusinessEntities.DelegateUser[] GetDelegatesDataContract(string value);
     
-    [System.ServiceModel.OperationContractAttribute(Action="http://ditech.commissions/ICommissions/GetCommissionReport", ReplyAction="http://ditech.commissions/ICommissions/GetCommissionReportResponse")]
-    Ditech.DataTransferObjects.ReportDTO GetCommissionReport(string paymentPeriodId, string employeeId);
+    [System.ServiceModel.OperationContractAttribute(Action="http://companyname.commissions/ICommissions/GetCommissionReport", ReplyAction="http://companyname.commissions/ICommissions/GetCommissionReportResponse")]
+    CompanyName.DataTransferObjects.ReportDTO GetCommissionReport(string paymentPeriodId, string employeeId);
     
-    [System.ServiceModel.OperationContractAttribute(Action="http://ditech.commissions/ICommissions/CanCurrentUserAdminCommissions", ReplyAction="http://ditech.commissions/ICommissions/CanCurrentUserAdminCommissionsResponse")]
+    [System.ServiceModel.OperationContractAttribute(Action="http://companyname.commissions/ICommissions/CanCurrentUserAdminCommissions", ReplyAction="http://companyname.commissions/ICommissions/CanCurrentUserAdminCommissionsResponse")]
     bool CanCurrentUserAdminCommissions(string value);
 }
 
@@ -1009,7 +1009,7 @@ public partial class CommissionsClient : System.ServiceModel.ClientBase<ICommiss
         return base.Channel.GetDelegates(value);
     }
     
-    public Ditech.BusinessEntities.StatementPeriod[] GetStatementList()
+    public CompanyName.BusinessEntities.StatementPeriod[] GetStatementList()
     {
         return base.Channel.GetStatementList();
     }
@@ -1019,12 +1019,12 @@ public partial class CommissionsClient : System.ServiceModel.ClientBase<ICommiss
         return base.Channel.GetStatement(value);
     }
     
-    public Ditech.BusinessEntities.DelegateUser[] GetDelegatesDataContract(string value)
+    public CompanyName.BusinessEntities.DelegateUser[] GetDelegatesDataContract(string value)
     {
         return base.Channel.GetDelegatesDataContract(value);
     }
     
-    public Ditech.DataTransferObjects.ReportDTO GetCommissionReport(string paymentPeriodId, string employeeId)
+    public CompanyName.DataTransferObjects.ReportDTO GetCommissionReport(string paymentPeriodId, string employeeId)
     {
         return base.Channel.GetCommissionReport(paymentPeriodId, employeeId);
     }

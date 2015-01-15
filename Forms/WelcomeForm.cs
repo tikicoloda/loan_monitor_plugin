@@ -36,20 +36,20 @@ namespace LoanMonitorPlugin.Forms
                                           body {font-family:'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;width:700px;}
                                         </style>
                                           <body>
-                                            <div id='header'><img src='http://intranet.ditech.com/brandcenter/Documents/Ditech_logo_3c_pms.jpg'/></div>
+                                            <div id='header'><img src='http://intranet.companyname.com/brandcenter/Documents/CompanyName_logo_3c_pms.jpg'/></div>
                                             <div id='content' class='content'>
                                               <h1 class='blue'>Welcome to the e360 Tray Application.</h1>
                                               <p>
 	                                        The e360 Tray Application is a companion tool for the Encompass360 software. 
 	                                        This is an 'alpha' release and, as such, the features will change over time.
 	                                        See below for some high-level information about the initial release.
-	                                        If you have any questions/concerns, please contact the Ditech Development Team through the <a href='mailto:EncompassDevelopmentTeam@ditech.com'>Encompass - Development distribution</a>.
+	                                        If you have any questions/concerns, please contact the CompanyName Development Team through the <a href='mailto:EncompassDevelopmentTeam@companyname.com'>Encompass - Development distribution</a>.
                                               </p>
                                               <h3 class='blue'>Dynamic Event Handling</h3>
                                               <p>
 	                                        At the core of the plugin is support for handling events.
 	                                        The events being handled provide, nearly, limitless possibilities for extensibility.
-	                                        All Design Patterns previously identified in the 'Ditech Prototype Design Patterns' form have now been replicated externally.
+	                                        All Design Patterns previously identified in the 'CompanyName Prototype Design Patterns' form have now been replicated externally.
 	                                        This means we have a single code-base for deploying between environments.
 	                                        <ul><li>Interface Triggers</li><li>Extending button clicks</li></ul>
                                               </p>
